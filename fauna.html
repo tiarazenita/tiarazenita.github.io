@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Fauna - NusaWana</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #F9F6F0; color: #4A3728; line-height: 1.6; }
+        
+        /* Navigation */
+        nav { background-color: #2D5A27; padding: 15px; position: sticky; top: 0; z-index: 1000; }
+        .nav-container { max-width: 1000px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { color: #F9F6F0; font-size: 20px; font-weight: bold; text-decoration: none; }
+        .menu { display: flex; list-style: none; gap: 20px; }
+        .menu a { color: #F9F6F0; text-decoration: none; font-size: 16px; padding: 5px 10px; transition: 0.3s; }
+        .menu a:hover, .menu a.active { background-color: #1E4620; border-radius: 5px; }
+
+        .header-title { text-align: center; padding: 40px 20px 10px; color: #2D5A27; }
+
+        /* Catalog Layout */
+        .catalog { max-width: 900px; margin: 20px auto; padding: 20px; }
+        .card { background: white; border-radius: 10px; padding: 25px; margin-bottom: 30px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); border-left: 5px solid #2D5A27; }
+        .card h2 { color: #2D5A27; margin-bottom: 10px; display: flex; align-items: center; gap: 10px; }
+        .info-list { list-style: none; margin: 15px 0; background: #F4EFE6; padding: 15px; border-radius: 5px; font-size: 15px; }
+        .info-list li { margin-bottom: 5px; }
+        .card p { text-align: justify; font-size: 16px; }
+
+        footer { background-color: #2D5A27; color: #F9F6F0; text-align: center; padding: 15px; margin-top: 60px; }
+
+        @media (max-width: 600px) {
+            .nav-container { flex-direction: column; gap: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">🌿 NusaWana</a>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fauna.html" class="active">Fauna</a></li>
+                <li><a href="flora.html">Flora</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="header-title">🌿 KATEGORI: FAUNA (SATWA EKSOTIS) 🌿</h1>
+
+    <div class="catalog">
+        <div class="card">
+            <h2>🦧 1. Orangutan Sumatra (Pongo abelii)</h2>
+            <ul class="info-list">
+                <li><strong>• Status Kelangkaan:</strong> Kritis (Sangat Terancam Punah)</li>
+                <li><strong>• Habitat Asli:</strong> Hutan Hujan Tropis Dataran Rendah dan Rawa</li>
+                <li><strong>• Wilayah Asal:</strong> Pulau Sumatra (Area Ekosistem Leuser)</li>
+            </ul>
+            <p><strong>📋 Deskripsi Lengkap & Keunikan:</strong><br>Orangutan Sumatra menghabiskan hampir 95% hidupnya di atas pohon-pohon tinggi. Mereka berfungsi sebagai "petani hutan" yang menyebarkan biji-bijian. Memiliki kemiripan DNA hingga 97% dengan manusia, mereka sangat cerdas dan mampu menggunakan ranting pohon untuk mengambil madu atau menjadikannya payung pelindung saat hujan lebat.</p>
+        </div>
+
+        <div class="card">
+            <h2>🦎 2. Komodo (Varanus komodoensis)</h2>
+            <ul class="info-list">
+                <li><strong>• Status Kelangkaan:</strong> Rentan / Terancam Punah</li>
+                <li><strong>• Habitat Asli:</strong> Savana Terbuka dan Hutan Tropis Kering</li>
+                <li><strong>• Wilayah Asal:</strong> NTT (Pulau Komodo, Rinca, Flores)</li>
+            </ul>
+            <p><strong>📋 Deskripsi Lengkap & Keunikan:</strong><br>Komodo merupakan kadal terbesar di dunia yang bertahan dari zaman purba. Sebagai predator puncak, komodo dewasa bisa tumbuh hingga 3 meter dengan berat 100 kg. Senjata paling mematikannya terletak pada air liur yang mengandung kelenjar racun berbisa, memicu pendarahan hebat pada mangsanya.</p>
+        </div>
+
+        <div class="card">
+            <h2>🐅 3. Harimau Sumatra (Panthera tigris sumatrae)</h2>
+            <ul class="info-list">
+                <li><strong>• Status Kelangkaan:</strong> Kritis (Sangat Terancam Punah)</li>
+                <li><strong>• Habitat Asli:</strong> Hutan Dataran Rendah hingga Hutan Pegunungan</li>
+                <li><strong>• Wilayah Asal:</strong> Seluruh Kawasan Hutan Pulau Sumatra</li>
+            </ul>
+            <p><strong>📋 Deskripsi Lengkap & Keunikan:</strong><br>Satu-satunya subspesies harimau asli Indonesia yang masih tersisa. Kulitnya berwarna jingga tua kemerahan dengan pola garis loreng hitam yang sangat rapat. Ukuran tubuhnya paling kecil dari harimau dunia, membuat mereka lincah bergerak di hutan lebat. Mereka juga perenang andal karena memiliki selaput di jari kakinya.</p>
+        </div>
+
+        <div class="card">
+            <h2>🦚 4. Burung Cendrawasih (Paradisaeidae)</h2>
+            <ul class="info-list">
+                <li><strong>• Status Kelangkaan:</strong> Dilindungi Ketat oleh Undang-Undang</li>
+                <li><strong>• Habitat Asli:</strong> Hutan Hujan Tropis Dataran Rendah yang Lembap</li>
+                <li><strong>• Wilayah Asal:</strong> Pulau Papua dan Kawasan Maluku</li>
+            </ul>
+            <p><strong>📋 Deskripsi Lengkap & Keunikan:</strong><br>Dijuluki "Bird of Paradise" karena kombinasi warna bulunya yang luar biasa indah. Keindahan bulu megah ini hanya dimiliki oleh burung jantan untuk memikat perhatian betina melalui ritual tarian koreografi rumit di atas dahan pohon saat musim kawin tiba.</p>
+        </div>
+
+        <div class="card">
+            <h2>🦏 5. Badak Jawa (Rhinoceros sondaicus)</h2>
+            <ul class="info-list">
+                <li><strong>• Status Kelangkaan:</strong> Kritis / Sangat Langka di Dunia</li>
+                <li><strong>• Habitat Asli:</strong> Hutan Hujan Dataran Rendah yang Lembap dan Rawa</li>
+                <li><strong>• Wilayah Asal:</strong> Pulau Jawa (Taman Nasional Ujung Kulon, Banten)</li>
+            </ul>
+            <p><strong>📋 Deskripsi Lengkap & Keunikan:</strong><br>Mamalia besar terlangka di dunia yang jumlahnya tinggal puluhan ekor. Dicirikan dengan lipatan kulit menyerupai baju zirah besi dan cula tunggal pada jantan. Merupakan hewan soliter (penyendiri) yang sangat pemalu dan wajib berkubang di lumpur setiap hari untuk menjaga suhu tubuh.</p>
+        </div>
+
+        <div class="card">
+            <h2>🐂 6. Anoa (Bubalus depressicornis)</h2>
+            <ul class="info-list">
+                <li><strong>• Status Kelangkaan:</strong> Genting (Terancam Punah)</li>
+                <li><strong>• Habitat Asli:</strong> Hutan Hujan Tropis Virgin dan Kawasan Rawa</li>
+                <li><strong>• Wilayah Asal:</strong> Pulau Sulawesi dan Pulau Buton</li>
+            </ul>
+            <p><strong>📋 Deskripsi Lengkap & Keunikan:</strong><br>Satwa endemik Sulawesi yang dijuluki "Kerbau Kerdil" karena bentuknya mirip kerbau namun seukuran kambing. Memiliki sepasang tanduk lurus nan runcing ke belakang sebagai senjata pelindung diri. Hidup menyendiri di hutan lebat dan menyukai tumbuhan air segar.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 NusaWana - Kategori Fauna</p>
+    </footer>
+
+</body>
+</html>
