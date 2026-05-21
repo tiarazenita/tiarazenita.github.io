@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Flora - NusaWana</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #F9F6F0; color: #4A3728; line-height: 1.6; }
+        
+        /* Navigation */
+        nav { background-color: #2D5A27; padding: 15px; position: sticky; top: 0; z-index: 1000; }
+        .nav-container { max-width: 1000px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { color: #F9F6F0; font-size: 20px; font-weight: bold; text-decoration: none; }
+        .menu { display: flex; list-style: none; gap: 20px; }
+        .menu a { color: #F9F6F0; text-decoration: none; font-size: 16px; padding: 5px 10px; transition: 0.3s; }
+        .menu a:hover, .menu a.active { background-color: #1E4620; border-radius: 5px; }
+
+        .header-title { text-align: center; padding: 40px 20px 10px; color: #2D5A27; }
+
+        /* Catalog Layout */
+        .catalog { max-width: 900px; margin: 20px auto; padding: 20px; }
+        .card { background: white; border-radius: 10px; padding: 25px; margin-bottom: 30px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); border-left: 5px solid #8B5A2B; }
+        .card h2 { color: #8B5A2B; margin-bottom: 10px; display: flex; align-items: center; gap: 10px; }
+        .info-list { list-style: none; margin: 15px 0; background: #F4EFE6; padding: 15px; border-radius: 5px; font-size: 15px; }
+        .info-list li { margin-bottom: 5px; }
+        .card p { text-align: justify; font-size: 16px; }
+
+        footer { background-color: #2D5A27; color: #F9F6F0; text-align: center; padding: 15px; margin-top: 60px; }
+
+        @media (max-width: 600px) {
+            .nav-container { flex-direction: column; gap: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">🌿 NusaWana</a>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fauna.html">Fauna</a></li>
+                <li><a href="flora.html" class="active">Flora</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="header-title">🌱 KATEGORI: FLORA (TUMBUHAN UNIK) 🌱</h1>
+
+    <div class="catalog">
+        <div class="card">
+            <h2>🩸 7. Bunga Rafflesia Arnoldii</h2>
+            <ul class="info-list">
+                <li><strong>• Status Kelangkaan:</strong> Terancam Punah / Dilindungi Negara</li>
+                <li><strong>• Habitat Asli:</strong> Hutan Hujan Tropis Dataran Rendah yang Lembap</li>
+                <li><strong>• Wilayah Asal:</strong> Kawasan Hutan Bengkulu, Sumatra Barat, dan Aceh</li>
+            </ul>
+            <p><strong>📋 Deskripsi Lengkap & Keunikan:</strong><br>Pemegang rekor bunga tunggal terbesar di dunia (diameter mencapai 1 meter). Tanaman parasit sejati yang tidak memiliki akar, batang, maupun daun sejati sehingga tidak bisa berfotosintesis. Mengeluarkan bau busuk menyengat untuk menarik lalat penyerbuk, dan masa mekarnya hanya bertahan 5-7 hari saja.</p>
+        </div>
+
+        <div class="card">
+            <h2>🪵 8. Kantong Semar (Nepenthes)</h2>
+            <ul class="info-list">
+                <li><strong>• Status Kelangkaan:</strong> Sebagian Besar Spesies Dilindungi Ketat</li>
+                <li><strong>• Habitat Asli:</strong> Hutan Tropis, Kawasan Rawa, Lahan Gambut Lembap</li>
+                <li><strong>• Wilayah Asal:</strong> Banyak ditemukan di Pulau Kalimantan, Sumatra, dan Papua</li>
+            </ul>
+            <p><strong>📋 Deskripsi Lengkap & Keunikan:</strong><br>Tumbuhan karnivora yang menjebak serangga untuk mendapatkan nitrogen di tanah miskin hara. "Kantong" merupakan ujung daun yang termodifikasi dan memproduksi nektar manis. Ketika serangga tergelincir masuk, mereka akan larut di dalam cairan asam pencernaan tanaman.</p>
+        </div>
+
+        <div class="card">
+            <h2>🗼 9. Bunga Bangkai Titan Arum (Amorphophallus titanum)</h2>
+            <ul class="info-list">
+                <li><strong>• Status Kelangkaan:</strong> Rentan / Dilindungi Undang-Undang</li>
+                <li><strong>• Habitat Asli:</strong> Hutan Hujan Tropis Sumatra yang Lembap dan Teduh</li>
+                <li><strong>• Wilayah Asal:</strong> Endemik Asli Pulau Sumatra</li>
+            </ul>
+            <p><strong>📋 Deskripsi Lengkap & Keunikan:</strong><br>Berbeda dengan Rafflesia, Bunga Bangkai tumbuh menjulang tinggi ke atas (bisa mencapai 3 hingga 5 meter). Memiliki umbi raksasa di bawah tanah dan mengalami fase vegetatif (daun) dan generatif (bunga). Proses mekarnya sangat jarang terjadi dan hanya bertahan selama 24-48 jam.</p>
+        </div>
+
+        <div class="card">
+            <h2>🪵 10. Pohon Cendana (Santalum album)</h2>
+            <ul class="info-list">
+                <li><strong>• Status Kelangkaan:</strong> Rentan (Mengalami Penurunan Populasi Tajam)</li>
+                <li><strong>• Habitat Asli:</strong> Hutan Kering Terbuka dan Lahan Berbatu yang Panas</li>
+                <li><strong>• Wilayah Asal:</strong> NTT (Terutama Pulau Timor dan Sumba)</li>
+            </ul>
+            <p><strong>📋 Deskripsi Lengkap & Keunikan:</strong><br>Pohon penghasil kayu mewah beraroma sangat harum yang awet hingga puluhan tahun. Di awal hidupnya, tanaman ini parasit obligat yang harus menempel pada akar inang lain untuk menyerap nutrisi. Minyak cendana bernilai ekonomi sangat tinggi untuk bahan baku parfum kelas atas.</p>
+        </div>
+
+        <div class="card">
+            <h2>🖤 11. Anggrek Hitam (Coelogyne pandurata)</h2>
+            <ul class="info-list">
+                <li><strong>• Status Kelangkaan:</strong> Sangat Langka / Dilindungi Ketat</li>
+                <li><strong>• Habitat Asli:</strong> Hutan Hujan Dataran Rendah, Menempel pada Pohon Besar</li>
+                <li><strong>• Wilayah Asal:</strong> Pulau Kalimantan (Flora Maskot Kalimantan Timur)</li>
+            </ul>
+            <p><strong>📋 Deskripsi Lengkap & Keunikan:</strong><br>Hidup secara epifit (menempel tanpa merugikan inang). Meskipun namanya anggrek hitam, kelopaknya berwarna hijau muda cerah, sedangkan bagian lidah bunga (labellum) berwarna hitam legam berbulu beludru yang sangat eksotis dan mistis. Mengeluarkan aroma wangi semerbak yang manis.</p>
+        </div>
+
+        <div class="card">
+            <h2>🪵 12. Pohon Damar (Agathis dammara)</h2>
+            <ul class="info-list">
+                <li><strong>• Status Kelangkaan:</strong> Risiko Rendah (Mulai Diawasi)</li>
+                <li><strong>• Habitat Asli:</strong> Hutan Hujan Tropis Pegunungan Dataran Tinggi</li>
+                <li><strong>• Wilayah Asal:</strong> Kawasan Maluku, Sulawesi, dan Pulau Jawa</li>
+            </ul>
+            <p><strong>📋 Deskripsi Lengkap & Keunikan:</strong><br>Pohon raksasa berbatang silinder lurus yang tingginya bisa mencapai 60 meter. Pohon ini disadap untuk diambil getah alaminya yang disebut "kopal" atau getah damar. Ketika mengeras, getah ini digunakan sebagai bahan industri penting seperti pernis kayu, plastik, cat, hingga farmasi.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 NusaWana - Kategori Flora</p>
+    </footer>
+
+</body>
+</html>
