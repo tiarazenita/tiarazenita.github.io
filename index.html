@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NusaWana - Flora & Fauna Nusantara</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #F9F6F0; color: #4A3728; line-height: 1.6; }
+        
+        /* Navigation Menu */
+        nav { background-color: #2D5A27; padding: 15px; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .nav-container { max-width: 1000px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { color: #F9F6F0; font-size: 20px; font-weight: bold; text-decoration: none; }
+        .menu { display: flex; list-style: none; gap: 20px; }
+        .menu a { color: #F9F6F0; text-decoration: none; font-size: 16px; font-weight: 500; padding: 5px 10px; transition: 0.3s; }
+        .menu a:hover, .menu a.active { background-color: #1E4620; border-radius: 5px; }
+
+        /* Hero Section */
+        .hero { background: linear-gradient(rgba(45,90,39,0.8), rgba(45,90,39,0.8)), url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1000') no-repeat center/cover; padding: 80px 20px; text-align: center; color: #F9F6F0; }
+        .hero h1 { font-size: 36px; margin-bottom: 15px; }
+        .hero p { font-size: 18px; max-width: 600px; margin: 0 auto; }
+
+        /* Content Section */
+        .container { max-width: 800px; margin: 40px auto; padding: 0 20px; text-align: justify; }
+        .container p { margin-bottom: 20px; font-size: 17px; }
+        
+        /* Footer */
+        footer { background-color: #2D5A27; color: #F9F6F0; text-align: center; padding: 15px; margin-top: 60px; font-size: 14px; }
+
+        /* Responsive Mobile */
+        @media (max-width: 600px) {
+            .nav-container { flex-direction: column; gap: 10px; }
+            .hero h1 { font-size: 28px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">🌿 NusaWana</a>
+            <ul class="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="fauna.html">Fauna</a></li>
+                <li><a href="flora.html">Flora</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Selamat Datang di NusaWana</h1>
+        <p>Jelajah Eksotika Flora & Fauna Asli Nusantara</p>
+    </div>
+
+    <div class="container">
+        <p>Indonesia dikenal sebagai negara <strong>megabiodiversitas</strong>, yaitu negara dengan kekayaan makhluk hidup terbesar di dunia karena posisinya yang strategis di daerah tropis. Diapit oleh dua samudra dan dua benua, bumi Nusantara menjadi rumah yang nyaman bagi jutaan spesies tumbuhan dan hewan yang unik, eksotis, bahkan tidak bisa ditemukan di belahan dunia lain.</p>
+        <p>Melalui website NusaWana ini, kita akan menjelajahi keindahan alam liar Indonesia, mulai dari rimbunnya hutan hujan Sumatra, eksotisnya pulau-pulau di Nusa Tenggara, hingga megahnya alam Papua. Mari kita kenali lebih dekat flora dan fauna kebanggaan Indonesia, karena tak kenal maka tak sayang. Selamat menjelajah! Gunakan menu di atas untuk mulai melihat katalog satwa dan tumbuhan langka.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 NusaWana - Tugas Website Flora & Fauna</p>
+    </footer>
+
+</body>
+      </html>
